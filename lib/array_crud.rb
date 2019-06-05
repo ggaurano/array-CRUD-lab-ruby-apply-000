@@ -30,12 +30,20 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
+  first_element = array[0]
+  new_arr4 = array.shift(first_element)
   
+  return new_arr4
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  element_in_array = array[index_number]
+  element = array.pop(element_in_array)
 end
+
+# [a, b, c, d]
+# index_number = 2 
+# returns c 
 
 def retrieve_first_element_from_array(array)
   
