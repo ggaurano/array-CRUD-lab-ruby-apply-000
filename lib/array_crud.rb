@@ -24,8 +24,7 @@ end
 
 def remove_element_from_end_of_array(array)
   
-  last_element = array[-1].to_i
-  new_arr3 = array.pop(last_element)
+  new_arr3 = array.pop
   
   return new_arr3 
 end
