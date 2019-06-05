@@ -1,19 +1,19 @@
 def create_an_empty_array
-  array_1 = []
+  array_empty = []
   
-  return array
+  return array_epmty
 end
 
 def create_an_array
-  array_2 = [1, 2, 3, 4]
+  my_array = [1, 2, 3, 4]
   
-  return array_2
+  return my_array
 end
 
 def add_element_to_end_of_array(array, element)
   new_arr1 = array << element
   
-  return new_arr
+  return new_arr1
 end
 
 def add_element_to_start_of_array(array, element)
@@ -44,9 +44,13 @@ end
 
 
 def retrieve_first_element_from_array(array)
+  first_element = array[0]
   
+  return first_element 
 end
 
 def retrieve_last_element_from_array(array)
+  last_element = array[-1]
   
+  return last_element 
 end
