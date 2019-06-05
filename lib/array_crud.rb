@@ -37,13 +37,11 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  element_in_array = array[index_number]
-  element = array.pop(element_in_array)
+  element = array[index_number]
+  
+  return element 
 end
 
-# [a, b, c, d]
-# index_number = 2 
-# returns c 
 
 def retrieve_first_element_from_array(array)
   
