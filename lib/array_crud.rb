@@ -23,14 +23,15 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  last_element = array[-1]
+  
+  last_element = array[-1].to_i
   new_arr3 = array.pop(last_element)
   
   return new_arr3 
 end
 
 def remove_element_from_start_of_array(array)
-  first_element = array[0]
+  first_element = array[0].to_i
   new_arr4 = array.shift(first_element)
   
   return new_arr4
